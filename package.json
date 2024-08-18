@@ -1,0 +1,33 @@
+{
+  "name": "eigendev-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Technical test for applying on eigendev as a backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eigen3dev/backend-test-case.git"
+  },
+  "keywords": [
+    "Express",
+    "JavaScript",
+    "SQLite"
+  ],
+  "author": "Andhika Dwiky Pratama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eigen3dev/backend-test-case/issues"
+  },
+  "homepage": "https://github.com/eigen3dev/backend-test-case#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
